@@ -1,8 +1,7 @@
-const Greeting = () => {
+const Greeting = ({name, gender, alertUser}) => {
   return (
-    
     <div>
-      <hi>Hello world ,my first component</hi>
+      <h1 onClick={()=>alertUser (name)}>Hello {name}, welcome to ,my first component</h1>
     </div>
   );
 };
