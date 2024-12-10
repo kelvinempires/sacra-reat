@@ -4,6 +4,7 @@ import pics from "./assets/im.bmp";
 import Greeting from "./components/Greeting";
 import Welcome from "./components/Welcome";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 // import Profile from "./components/Profile";
 function App() {
   const alertUser = (name) => {
@@ -19,6 +20,7 @@ function App() {
         <Welcome>kelvin</Welcome>
       </main>
       {/* <Profile /> */}
+      <Footer/>
     </div>
   );
 }
